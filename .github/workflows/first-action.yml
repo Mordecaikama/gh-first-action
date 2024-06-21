@@ -6,7 +6,6 @@ name: first workflow
 on: workflow_dispatch
 
 jobs:
-	# this workflow contains one job
 	first-job: 
  		runs-on: ubuntu-latest
 		steps:
